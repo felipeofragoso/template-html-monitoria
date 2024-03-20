@@ -1,0 +1,10 @@
+#rodape{
+  background-color: #ece6d8;
+}
+
+#rodape p{
+ text-align: center;
+ padding-top: 1%;
+ text-transform: capitalize;
+}
+

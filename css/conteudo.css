@@ -1,0 +1,46 @@
+
+ 
+.artigoUm ,
+.artigoDois ,
+.artigoTres  {
+  color: #333;
+   
+  height: 40%;
+  margin-top: 1%;
+  float: left;
+}
+.artigoUm {
+  width: 96%;
+    margin-left: 2%;
+}
+.artigoDois,
+.artigoTres {
+  margin-left: 2%;
+  width: 47%;
+}
+.artigoUm h2,
+.artigoDois h2 ,
+.artigoTres h2 {
+text-align: center;
+}
+.artigoUm p,
+.artigoDois p,
+.artigoTres p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  text-align: justify;
+}
+@media screen and (max-width:780px) {
+  .artigoUm ,
+.artigoDois ,
+.artigoTres  {
+float: none;
+display: block;
+width: 96%;
+
+}
+#conteudo{
+  overflow: scroll;
+}
+}
